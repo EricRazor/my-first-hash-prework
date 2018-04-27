@@ -28,6 +28,6 @@ def adding
                   "porcelain vases" => 2, 
                   "oil paintings" => 3
                  }
-  shipping_manifest.merge!
+  shipping_manifest.merge!("muskets": 2)
   return shipping_manifest
 end
